@@ -1,0 +1,50 @@
+# Project metadata - fill this out by Week 4
+# This file will be used to generate your entry in the course showroom
+
+# Basic information
+handle: your-github-username
+name: Your Full Name
+email: your-email@udit.es
+
+# URLs (will be auto-generated if you follow naming conventions)
+github_url: https://github.com/your-username
+project_url: https://your-username.github.io/your-project-repo
+repository_url: https://github.com/your-username/your-project-repo
+
+# Project details
+title:
+ es: Título de tu Proyecto en Español
+ en: Your Project Title in English
+
+abstract:
+ es: |
+  Una descripción concisa de tu proyecto web en español. 
+  Explica qué construyes, para quién y por qué es importante.
+ en: |
+  A concise description of your web project in English.
+  Explain what you're building, for whom, and why it matters.
+
+# Technical tags (choose relevant ones)
+tags:
+ - html5
+ - css3
+ - responsive-design
+ - accessibility
+ # Add more as relevant: javascript, sass, performance, etc.
+
+# Learning objectives you're focusing on
+learning_focus:
+ - semantic-html
+ - mobile-first-design
+ - web-accessibility
+ # Add more as you progress
+
+# Week tracking (update as you go)
+milestones:
+ week_1_setup: false
+ week_2_brief: false
+ week_4_metadata: false
+ week_5_showcase: false
+
+# Optional: link to your project brief
+brief_url: project-brief.md

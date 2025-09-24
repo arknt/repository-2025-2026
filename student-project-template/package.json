@@ -1,0 +1,40 @@
+{
+	"name": "student-project-template",
+	"version": "1.0.0",
+	"description": "Student project template for WEB ATELIER (UDIT)",
+	"private": true,
+	"scripts": {
+		"dev": "npx live-server --port=3000 --open=index.html",
+		"validate:html": "html-validate index.html",
+		"validate:css": "stylelint 'assets/css/*.css'",
+		"validate:js": "eslint assets/js/*.js",
+		"validate:project": "yaml-lint project.yaml",
+		"validate:all": "npm run validate:html && npm run validate:css && npm run validate:js && npm run validate:project",
+		"optimize:images": "echo 'Image optimization: Use tools like imagemin or online services'",
+		"lighthouse": "lighthouse http://localhost:3000 --output=json --output-path=./lighthouse-report.json"
+	},
+	"devDependencies": {
+		"html-validate": "^8.7.4",
+		"stylelint": "^16.1.0",
+		"stylelint-config-standard": "^36.0.0",
+		"eslint": "^8.56.0",
+		"yaml-lint": "^1.7.0",
+		"lighthouse": "^11.4.0",
+		"live-server": "^1.2.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/[student-username]/[project-name].git"
+	},
+	"author": "[Student Name]",
+	"license": "MIT",
+	"keywords": [
+		"web-design",
+		"html",
+		"css",
+		"accessibility",
+		"responsive-design",
+		"udit",
+		"student-project"
+	]
+}
