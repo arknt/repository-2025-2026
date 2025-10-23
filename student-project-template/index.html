@@ -1,202 +1,85 @@
-
 <!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>My Web Project - WEB ATELIER (UDIT)</title>
-		<meta name="description" content="A student web project for WEB ATELIER (UDIT) course" />
-		<!-- Estilos locales -->
-		<link rel="stylesheet" href="./assets/css/style.css" />
-		<!-- Bootstrap CDN -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-			crossorigin="anonymous"
-		/>
-	</head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francesco Gioia | Photographer</title>
 
-	<body class="p-3">
-		<a href="#main" class="skip-link">Saltar al contenido principal</a>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Handgloves&display=swap" rel="stylesheet">
 
-		<header class="bg-light py-4 mb-4">
-			<div class="container">
-				<h1>My Web Project</h1>
-				<p>Student Project - WEB ATELIER (UDIT)</p>
-			</div>
-		</header>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-		<main id="main" class="container">
-			<section class="mb-5">
-				<h2>Welcome</h2>
-				<p>
-					This is the starting point for my web project. I will build this incrementally, committing progress after each class.
-				</p>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">MATEO CASCANTE</div>
+    <nav>
+      <a href="#">INSTAGRAM</a>
+      <a href="#">GALLERY</a>
+      <a href="#">CONTACT</a>
+    </nav>
+  </header>
 
-				<h3>Project Goals</h3>
-				<ul>
-					<li>Create a responsive, accessible website</li>
-					<li>Practice semantic HTML</li>
-					<li>Implement modern CSS techniques</li>
-					<li>Follow web accessibility guidelines</li>
-				</ul>
-			</section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        HELLO, I’M<br>
+        <span>MATEO CASCANTE</span>
+      </h1>
+      <p class="subtitle">GRAPHIC DESIGNER FROM PANAMA<br>BASED IN MADRID</p>
+    </div>
+  </section>
 
-			<!-- 🔹 Bootstrap Grid Examples -->
-			<section class="mb-5">
-				<h2>Bootstrap Grid Examples</h2>
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="gallery-header">
+      <span class="gallery-number">08</span>
+      <h2>GALLERY</h2>
+    </div>
 
-				<!-- Auto-sized columns -->
-				<div class="row mb-3">
-					<div class="col">Auto-sized column</div>
-					<div class="col">Auto-sized column</div>
-					<div class="col">Auto-sized column</div>
-				</div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="assets/images/photo1.jpg" alt="Notes on Vision">
+        <div class="caption">
+          <h3>NOTES ON VISION</h3>
+          <p>12 IMAGES</p>
+        </div>
+      </div>
 
-				<!-- Fixed-width Columns -->
-				<h4>Fixed-width Columns</h4>
-				<div class="row mb-3">
-					<div class="col-4">25% width</div>
-					<div class="col-4">25% width</div>
-					<div class="col-4">25% width</div>
-				</div>
+      <div class="gallery-item">
+        <img src="assets/images/photo2.jpg" alt="Undesignated">
+        <div class="caption">
+          <h3>UNDESIGNATED</h3>
+          <p>09 IMAGES</p>
+        </div>
+      </div>
 
-				<!-- Responsive Columns -->
-				<h4>Responsive Columns</h4>
-				<div class="row mb-3">
-					<div class="col-sm-8 col-md-6 bg-light p-2">Responsive column</div>
-					<div class="col-sm-4 col-md-6 bg-light p-2">Responsive column</div>
-				</div>
+      <div class="gallery-item">
+        <img src="assets/images/photo3.jpg" alt="Florence">
+        <div class="caption">
+          <h3>FLORENCE</h3>
+          <p>20 IMAGES</p>
+        </div>
+      </div>
 
-				<!-- Gutters -->
-				<h4>Gutters (Espaciado entre columnas)</h4>
-				<div class="row g-3 mb-3">
-					<div class="col"><div class="border p-3">A</div></div>
-					<div class="col"><div class="border p-3">B</div></div>
-					<div class="col"><div class="border p-3">C</div></div>
-				</div>
+      <div class="gallery-item">
+        <img src="assets/images/photo4.jpg" alt="Coherence">
+        <div class="caption">
+          <h3>COHERENCE</h3>
+          <p>15 IMAGES</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<!-- Auto column counts -->
-				<h4>Auto Column Counts</h4>
-				<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 mb-5">
-					<div class="col"><div class="border p-3">1</div></div>
-					<div class="col"><div class="border p-3">2</div></div>
-					<div class="col"><div class="border p-3">3</div></div>
-					<div class="col"><div class="border p-3">4</div></div>
-				</div>
-			</section>
+  <!-- Footer -->
+  <footer>
+    <p>©2025 MATEO CASCANTE</p>
+  </footer>
 
-			<!-- 🔹 Exercise 1: Basic Grid Layout -->
-			<section class="mb-5">
-				<h2>Exercise 1: Basic Grid Layout</h2>
-				<div class="row g-3">
-					<main class="col-12 col-md-8">
-						<h3>Main Content Area</h3>
-						<p>2/3 width from md (≥768px), full width below.</p>
-					</main>
-					<aside class="col-12 col-md-4">
-						<h3>Sidebar</h3>
-						<p>1/3 width from md, stacks below on small screens.</p>
-					</aside>
-				</div>
-			</section>
-
-			<!-- 🔹 Exercise 2: Complex Responsive Layout -->
-			<section class="mb-5">
-				<h2>Exercise 2: Complex Layout</h2>
-				<div class="container-fluid px-0">
-					<!-- Header -->
-					<header class="row bg-primary text-white py-4 m-0">
-						<div class="col-12">
-							<h2 class="text-center">Portfolio Header</h2>
-						</div>
-					</header>
-
-					<!-- Main Content -->
-					<div class="row py-4 g-4">
-						<!-- Hero Section -->
-						<section class="col-lg-8">
-							<div class="bg-light p-4 rounded h-100">
-								<h3>Welcome to My Portfolio</h3>
-								<p>This is a hero section that showcases my work and introduces visitors to my projects.</p>
-							</div>
-						</section>
-
-						<!-- Sidebar -->
-						<aside class="col-lg-4">
-							<div class="bg-secondary text-white p-3 rounded h-100">
-								<h4>About Me</h4>
-								<p>Brief information about myself and my skills.</p>
-							</div>
-						</aside>
-					</div>
-
-					<!-- Projects Grid -->
-					<section class="row g-3">
-						<div class="col-12">
-							<h3>My Projects</h3>
-						</div>
-						<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
-							<div class="col">
-								<div class="card h-100">
-									<div class="card-body">
-										<h5 class="card-title">Project 1</h5>
-										<p class="card-text">Description of project 1.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="card h-100">
-									<div class="card-body">
-										<h5 class="card-title">Project 2</h5>
-										<p class="card-text">Description of project 2.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="card h-100">
-									<div class="card-body">
-										<h5 class="card-title">Project 3</h5>
-										<p class="card-text">Description of project 3.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="card h-100">
-									<div class="card-body">
-										<h5 class="card-title">Project 4</h5>
-										<p class="card-text">Description of project 4.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-			</section>
-
-			<!-- 🔹 Exercise 3: Advanced Grid Techniques -->
-			<section>
-				<h2>Exercise 3: Advanced Grid</h2>
-
-				<!-- Offset columns -->
-				<div class="row mb-4">
-					<div class="col-md-4 offset-md-4">
-						<h3>Centered Content</h3>
-						<p>This column is centered using the offset class.</p>
-					</div>
-				</div>
-
-				<!-- Nested rows -->
-				<div class="row">
-					<div class="col-md-6">
-						<h4>Section 1</h4>
-						<div class="row">
-							<div class="col-6"><p>Sub-column 1</p></div>
-							<div class="col-6"><p>Sub-column 2</p></div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<h4>Section 2</h4>
-					
-```
+</body>
+</html>
