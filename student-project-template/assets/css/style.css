@@ -873,3 +873,11 @@ img {
   object-fit: cover;
   display: block;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
