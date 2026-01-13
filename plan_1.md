@@ -1,6 +1,6 @@
 # PLAN 1 – Portfolio Web (HTML / CSS / JS)
 
-## 🎯 Goal
+## Goal
 Create a **personal portfolio website** focused on showcasing audiovisual and creative projects, with a strong visual identity, bold typography, and editorial-style layouts.
 
 The project prioritizes:
@@ -11,16 +11,16 @@ The project prioritizes:
 
 ---
 
-## 🧱 Technologies Used
+## Technologies Used
 - **HTML5** – semantic structure
 - **CSS3** – layout, grid, typography
 - **Vanilla JavaScript** – basic interactions
 
-> ❌ No frameworks or external libraries are used (React, GSAP, etc.)
+> No frameworks or external libraries are used (React, GSAP, etc.)
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 portfolio/
@@ -37,9 +37,9 @@ portfolio/
 
 ---
 
-## 🖥️ General Layout
+##  General Layout
 
-### 1️⃣ Hero / Intro Section
+### 1️ Hero / Intro Section
 - Black background covering **true 100vh**
 - Large typographic title using `clamp()`
 - Tight kerning for impact
@@ -57,7 +57,7 @@ Example CSS:
 
 ---
 
-### 2️⃣ Project Index
+### 2️ Project Index
 - Positioned slightly to the left
 - Clear numeric system (`01`, `02`, etc.)
 - Vertical alignment
@@ -73,7 +73,7 @@ Example CSS:
 
 ---
 
-### 3️⃣ Project Sections (Full Screen)
+### 3️ Project Sections (Full Screen)
 Each project is composed of:
 - One full-screen image
 - One split section (50% / 50%)
@@ -90,7 +90,7 @@ Base grid:
 
 ---
 
-## 🎨 Typography
+## Typography
 
 - Large-scale type using `clamp()`
 - Compact line height (`line-height: 0.9`)
@@ -107,7 +107,7 @@ Base grid:
 
 ---
 
-## 🖼️ Images
+## Images
 - Uses `object-fit: cover`
 - Always fills the container
 - No distortion
@@ -122,7 +122,7 @@ img {
 
 ---
 
-## ⚙️ JavaScript (Basic Usage)
+## JavaScript (Basic Usage)
 
 Implemented features:
 - Basic scroll detection
@@ -138,7 +138,7 @@ document.addEventListener('scroll', () => {
 
 ---
 
-## 🧪 Invented / Future Improvements
+## Invented / Future Improvements
 - Project tagging system
 - Alternative list-based view
 - Image preloading for smoother transitions
