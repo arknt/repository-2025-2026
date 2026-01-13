@@ -3,7 +3,7 @@
 Personal portfolio website designed and developed using **HTML and CSS (Vanilla)**.  
 The project explores an **editorial-inspired layout**, focusing on typography, grid systems and visual hierarchy.
 
-🔗 Live site: https://TU-USUARIO.github.io/TU-REPO/
+🔗 Live site: https://arknt.github.io/repository-2025-2026
 
 ---
 
