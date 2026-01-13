@@ -7,7 +7,7 @@ The project explores an **editorial-inspired layout**, focusing on typography, g
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This website serves as a personal portfolio showcasing selected projects through a clean, minimal and editorial visual language.
 
@@ -19,7 +19,7 @@ The main goal of the project was to:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5 (semantic structure)
 - CSS3
@@ -34,7 +34,7 @@ No external CSS frameworks or JavaScript libraries were used.
 
 ---
 
-## 📐 Features
+## Features
 
 - Fully responsive layout (mobile, tablet, desktop)
 - Editorial-style grid compositions
@@ -46,7 +46,7 @@ No external CSS frameworks or JavaScript libraries were used.
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 
 - High color contrast between text and background
 - Semantic HTML structure
@@ -55,7 +55,7 @@ No external CSS frameworks or JavaScript libraries were used.
 
 ---
 
-## 🤖 AI Usage
+## AI Usage
 
 Artificial Intelligence tools (ChatGPT) were used during development to:
 - Assist with CSS layout structuring
